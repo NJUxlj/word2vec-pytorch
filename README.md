@@ -74,6 +74,10 @@
 
 ## Word2Vec语言模型的模型结构
 
+- 本质：一个嵌套的双层线性层  + 一个单独的线性层
+  - 一共3个线性层 W, U, X
+  - 输入 $$x = (C(w_1), ...,C(w_n))$$ 相当于把所有输入的词向量拼接起来, 拼成一个长向量
+
 ![image](https://github.com/user-attachments/assets/72d7163c-26d6-4d8f-b1e9-6f49b6f20f15)
 
 ![image](https://github.com/user-attachments/assets/1c0df209-afe8-4098-a287-f87af959901a)
